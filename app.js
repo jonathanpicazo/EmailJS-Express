@@ -37,6 +37,8 @@ app.get('/', (req, res) => {
 
 app.post('/sendForm', async (req, res) => {
   let payload = req.body
+  console.log(payload)
+  
   let templateParams = {
     to_name: 'Jonathan Picazo',
     from_name: payload['name'],
@@ -53,9 +55,15 @@ app.post('/sendForm', async (req, res) => {
   }
 
   let r = await sendMessage(data)
-  console.log(r)
-  res.send(data)
-
+  if (r.ok) {
+    res.status(200)
+    res.send('Request complete to emailjs')
+    console.log('Request complete')
+  }
+  else {
+    res.status(400)
+    console.log('Error sending request')
+  }
 })
 
 app.listen(port, () => {
