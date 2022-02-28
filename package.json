@@ -1,0 +1,29 @@
+{
+  "name": "express-waiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanpicazo/Express-Waiter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanpicazo/Express-Waiter/issues"
+  },
+  "homepage": "https://github.com/jonathanpicazo/Express-Waiter#readme",
+  "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "path": "^0.12.7",
+    "xhr2": "^0.2.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
