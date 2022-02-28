@@ -2,10 +2,11 @@
   "name": "express-waiter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +19,10 @@
   },
   "homepage": "https://github.com/jonathanpicazo/Express-Waiter#readme",
   "dependencies": {
-    "@emailjs/browser": "^3.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "path": "^0.12.7",
-    "xhr2": "^0.2.1",
-    "xmlhttprequest": "^1.8.0"
+    "node-fetch": "^3.2.0",
+    "path": "^0.12.7"
   }
 }
