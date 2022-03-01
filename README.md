@@ -6,6 +6,6 @@ The environment variables needed to recreate this app are:
 EMAILJS_USER_ID="user_xxxxxxxxx"
 EMAILJS_SERVICE_ID="service_xxxxxx"
 EMAILJS_TEMPLATE_ID="template_xxxxxx"
-EMAILJS_ACCESS_TOKEN="access_token
+EMAILJS_ACCESS_TOKEN="access_token"
 ```
 These should all be supplied by EmailJS
